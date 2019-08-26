@@ -1,0 +1,14 @@
+STRIPE_PUBLIC_KEY: <stripe public key>
+STRIPE_SECRET_KEY: <stripe secret key>
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 5000
+spring:
+  datasource:
+    password: ubuntu
+    url: jdbc:mysql://localhost:3306/crush
+    username: root
